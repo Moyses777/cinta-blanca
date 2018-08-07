@@ -1,0 +1,30 @@
+body{
+    background-color: blue;
+    color: white;
+    }
+p {
+    border: 2px solid white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.target{
+    background-color: black;
+    border:  1px solid red;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: gray 1px 1px 1px 1px;
+    float: left;
+    margin:5px;
+    transition: all 500ms ease;
+}
+.target:hover{
+    width: 350px;
+    transform: scale(1.2);
+    box-shadow: gray 10px 10px 10px;
+    background-color: red;
+}   
+.target p{
+    background-color: blue;
+    text-align: center;
+} 

@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: rgb(233, 248, 27);
+}
+.red{
+ color: blue;
+ text-align: center;
+ text-transform: capitalize;
+}
+p{
+    font-family: 'Hanalei Fill', cursive;
+    font-weight: bold;
+    background-color: brown;
+    text-transform: capitalize;
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+div{
+    font-family: fantasy;
+ padding: 1%;
+ width: 50%;
+}
+.color-verde:hover{
+    color: green;
+    background-color: orangered;
+    transition:all 1000ms ease;
+    border: 1px solid purple;
+}
+p:nth-child(odd){
+    color: aqua; /* in par*/
+}
+p:nth-child(even){ /* par */
+    color: peru;
+}
+p:nth-child(1){
+    color: palegreen;
+}
