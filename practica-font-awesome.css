@@ -1,0 +1,44 @@
+nav{
+    background-color: blue;
+    color: white;
+    padding-top: 30px;
+    border-bottom-width: 30px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 50px;
+}
+body{
+    background-color: red;
+}
+.target{
+    border: 3px solid;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: white;
+    width: 100px;
+    height: 80px;
+    box-shadow: 10px 10px rgba(17, 1, 1, 0.753);
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 1000ms ease;
+   size: 100px;
+    }
+h1{
+    float: left;
+    margin: 0px;
+    padding-left: 20px;
+}
+.move{
+    float: right;
+    margin: 0px;
+    padding-right: 20px;
+}
+.target:hover{
+    width: 100px;
+    transform: scale(1.2);
+}

@@ -17,6 +17,7 @@ p {
     float: left;
     margin:5px;
     transition: all 500ms ease;
+    cursor: -webkit-grab;
 }
 .target:hover{
     width: 350px;
