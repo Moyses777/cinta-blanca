@@ -26,7 +26,6 @@ body{
    border-radius: 5px;
    cursor: pointer;
    transition: all 1000ms ease;
-   size: 100px;
     }
 h1{
     float: left;

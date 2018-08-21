@@ -1,0 +1,40 @@
+.body{
+    background-color: blue;
+    border: 2px solid white;
+    color: white;
+    height: 800px;
+}
+.Tarjetachica{
+    background-color: darkblue;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 90px;
+   margin-left: 630px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: green;
+}
+.acomodar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+
+}
+.dia{
+    margin-left: 550px;
+}
+.medida{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}

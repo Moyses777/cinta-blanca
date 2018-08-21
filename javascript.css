@@ -1,0 +1,28 @@
+.button{
+    background-color: blue;
+    color: white;
+}
+
+h1:nth-child(even){
+    color: blueviolet;
+}
+h1:nth-child(odd){
+    color: green;
+    transition-delay:all 500ms ease;
+}
+body{
+    background-color: brown;
+}
+nav{
+    font-size: 30px;
+    font-style: italic;
+    background-color: yellow;
+    margin-left: -10px;
+    margin-right: -10px;
+    }
+    h2 {
+        margin-top: -8px; 
+    }
+    h1:hover{
+
+    }

@@ -1,0 +1,21 @@
+.col {
+border: 1px solid black;
+height: 60px;
+}
+.columna2 {
+ border-bottom: 1px solid;
+ height: 60px;
+}
+.col-2 {
+    border-bottom: 0px;
+}
+.offset {
+   border-left: 1px solid black;
+}
+.offset-1 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 60px;
+   
+}
+

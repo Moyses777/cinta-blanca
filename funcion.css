@@ -1,0 +1,32 @@
+
+button{
+    
+    border-bottom-style: dashed;
+    transition-delay: all 500ms ease;
+    cursor: pointer;
+}
+.div{
+    background-color: purple;
+    color: white;
+    font-style: italic;
+}
+button:hover{
+     transform: scale(1.2);
+}
+nav{
+    background-color: blue;
+    padding: 20px;
+    box-shadow: gray 5px 5px 5px;
+}
+body{
+    margin: 0px;
+}
+.targeta{
+
+}
+.correcto{
+
+}
+.error{
+    
+}

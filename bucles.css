@@ -1,0 +1,14 @@
+body{
+    background-color: blue;
+}
+button{
+    background-color: red;
+    color: white;
+    border-bottom-style: dashed;
+    margin: 2px;
+    box-shadow: 4px black;
+    transition-delay:all 500ms ease; 
+}
+button:hover{
+    transform: scale(4.5);
+}

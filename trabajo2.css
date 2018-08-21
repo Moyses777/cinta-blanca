@@ -1,0 +1,22 @@
+.col {
+    border: 2px solid white;
+    box-shadow: 10px black;
+    padding: 1px;
+}
+
+.cuadrito{
+    background-color: blue;
+    height: 60px;
+    border: 2px solid white;
+    transition: all 500ms ease;
+}
+.fondo-amarillo{
+    background-color: yellow;
+    height: 60px;
+   }
+   .col-1{
+    padding: 1px;
+   }
+   .cuadrito:hover {
+    transform: scale(1.2);
+   }

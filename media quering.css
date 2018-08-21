@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(16, 90, 16);
+    color: black;
+}
+.h1{
+ float: right;
+}
+.h11{
+    float: left;
+}
+nav {
+    background-color: blue;
+    color: white;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.Targeta {
+ border: 1px solid black;
+ text-align: center;
+ width: 450px;
+ margin: 0;background-color: red;
+ color: white;
+}
+.Targeta2{
+    border: 1px solid black;
+    width: 450px;
+    background-color: white;
+}
+.targetachica{
+    border: 1px solid black;
+    width: 125px;
+    height: 150px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 12px;
+    text-align: center;
+    background-color: black;
+    color: green;
+    font-size: 25px;
+}
+.targetachica2{
+    border: 1px solid black;
+    width: 125px;
+    height: 150px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: black;
+    color: green;
+    font-size: 25px;
+}
+.float {
+    margin-left: 150px;
+    margin-top: 25px;
+    border-radius: 50%;
+    }
+.t {
+    text-align: center;
+    font-size: 25px;
+}    
+.margin{
+    margin-left: 10px;
+}
+@media screen and (min-width: 400px){
+  div {
+    float: left;
+  }
+}
+.div{
+    margin-right: 25px;
+    margin-left: 30px;
+}
