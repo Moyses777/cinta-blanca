@@ -16,17 +16,33 @@ button:hover{
 nav{
     background-color: blue;
     padding: 20px;
-    box-shadow: gray 5px 5px 5px;
+    box-shadow: gray 8px 8px 8px;
 }
 body{
     margin: 0px;
 }
-.targeta{
-
+.resultado{
+ border: 3px;
 }
 .correcto{
-
+    background-color: green;
+    border-color: green;
+    box-shadow: green 5px 5px 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 .error{
-    
+    background-color: red;
+    border-color: red;
+    box-shadow: red 5px 5px 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
 }

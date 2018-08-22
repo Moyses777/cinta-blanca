@@ -6,13 +6,13 @@ function validaAnagrama(){
     var palabra2 = document.getElementById('palabra2').value;
     if(validaInput(palabra1, palabra2)){
         //hacemos el codigo de anagrama
-         var palabra1Ordenada=palabra1.toLocaleLowerCase().split("").sort().join("");
-         var palabra2Ordenada=palabra2.toLocaleLowerCase().split("").sort().join("");
+         var palabra1Ordenada=palabra1.toLowerCase().split("").sort().join("");
+         var palabra2Ordenada=palabra2.toLowerCase().split("").sort().join("");
 
          if(palabra1Ordenada===palabra2Ordenada){
-             document.write('Son anagramas');
+             targeta(palabra1+" - "+palabra2,false);
          }else{
-             document.write('No son anagramas');
+             targeta(palabra1+" - "+palabra2,true);
          }
     }else{
         //Mostramos error en input
@@ -30,4 +30,27 @@ function validaAnagrama(){
 function validaInput(texto1,texto2){
      return texto1.length>0 && texto2.length>0;
 }
-function creaTargeta()
+function targeta(texto, error){
+    //crear la targeta
+    var targeta = document.createElement('div');
+    //creo el texto de la targeta
+    var h3 = document.createElement('h3');
+    //le asigno el texto que recibo para el parametro
+    h3.textContent=texto;
+    targeta.appendChild(h3);
+    targeta.classList.add('targeta');
+    //valido si es erroneo o no
+    if(error){
+        targeta.classList.add('error');
+
+    }else{
+        targeta.classList.add('correcto');
+    }
+    var resultado = document.getElementsByClassName('resultado')[0];
+    resultado.appendChild(targeta);
+
+    //limpio los input
+    document.getElementById('palabra1').value='';
+    document.getElementById('palabra2').value='';
+    
+}
